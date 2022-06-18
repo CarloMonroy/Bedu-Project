@@ -1,0 +1,69 @@
+@use "global" as *;
+
+.article-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.article-t1 {
+  margin-top: 70px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  font-size: 0.5rem;
+  .article-txt {
+    padding: 3%;
+    display: inline-block;
+    background-color: $mustard-yellow;
+    width: 50%;
+  }
+
+  img {
+    width: 600px;
+  }
+}
+
+.article-t2 {
+  margin-top: 70px;
+  background-color: $mustard-yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.5rem;
+
+  .article-txt {
+    width: 50%;
+  }
+  img {
+    width: 600px;
+  }
+}
+
+.modal {
+  font-size: 25px;
+
+  .modal-content {
+    background-color: $mustard-yellow;
+  }
+  .modal-header {
+    border-color: black;
+    text-align: center;
+  }
+  .modal-footer {
+    border-color: black;
+  }
+  .modal-body {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+  }
+}
+
+.btn {
+  font-size: 25px;
+}
+
+.btn-close {
+  width: 50px;
+}

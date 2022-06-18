@@ -1,0 +1,66 @@
+.article-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.article-t1 {
+  margin-top: 70px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  font-size: 0.5rem;
+}
+.article-t1 .article-txt {
+  padding: 3%;
+  display: inline-block;
+  background-color: #feda00;
+  width: 50%;
+}
+.article-t1 img {
+  width: 600px;
+}
+
+.article-t2 {
+  margin-top: 70px;
+  background-color: #feda00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.5rem;
+}
+.article-t2 .article-txt {
+  width: 50%;
+}
+.article-t2 img {
+  width: 600px;
+}
+
+.modal {
+  font-size: 25px;
+}
+.modal .modal-content {
+  background-color: #feda00;
+}
+.modal .modal-header {
+  border-color: black;
+  text-align: center;
+}
+.modal .modal-footer {
+  border-color: black;
+}
+.modal .modal-body {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+.btn {
+  font-size: 25px;
+}
+
+.btn-close {
+  width: 50px;
+}
+
+/*# sourceMappingURL=output.css.map */

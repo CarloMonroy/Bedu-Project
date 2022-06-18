@@ -70,14 +70,15 @@ body {
   grid-column: 1;
   grid-row: 2;
   display: flex;
-  height: 100%;
   align-items: flex-end;
-  padding-left: 12%;
-  padding-bottom: 10px;
 }
 
 .social-icons a {
-  color: black;
+  color: white;
+}
+
+.social-icons a {
+  color: white;
   height: 60%;
   font-size: 50px;
   margin: 5px;
@@ -132,7 +133,7 @@ body {
   position: absolute;
   display: inline-block;
   top: 62%;
-  right: -10%;
+  right: -18%;
   width: 80%;
   height: 15%;
   padding-left: 140px;
